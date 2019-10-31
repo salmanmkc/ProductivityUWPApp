@@ -13,6 +13,26 @@
                 The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
                 Place your content here.
             -->
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                <ListView Grid.Column="0">
+                    <ListViewItem>Mail1</ListViewItem>
+                    <ListViewItem>Mail2</ListViewItem>
+                    <ListViewItem>Mail3</ListViewItem>
+                    <ListViewItem>Mail4</ListViewItem>
+                </ListView>
+                <ListView Grid.Column="1">
+                    <ListViewItem>Email Title1</ListViewItem>
+                    <ListViewItem>Email Title2</ListViewItem>
+                    <ListViewItem>Email Title3</ListViewItem>
+                    <ListViewItem>Email Title4</ListViewItem>
+                </ListView>
+            </Grid>
+           
         </Grid>
     </Grid>
 </Page>
